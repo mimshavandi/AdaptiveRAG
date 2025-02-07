@@ -1,0 +1,81 @@
+{
+  "name": "knowledge-index",
+  "fields": [
+    {
+      "name": "id",
+      "type": "Edm.String",
+      "key": true,
+      "filterable": true,
+      "searchable": true
+    },
+    {
+      "name": "userId",
+      "type": "Edm.String",
+      "filterable": true,
+      "searchable": true
+    },
+    {
+      "name": "folderId",
+      "type": "Edm.String",
+      "filterable": true,
+      "searchable": true
+    },
+    {
+      "name": "documentId",
+      "type": "Edm.String",
+      "filterable": true,
+      "searchable": true
+    },
+    {
+      "name": "type",
+      "type": "Edm.String",
+      "filterable": true,
+      "searchable": true
+    },
+    {
+      "name": "content",
+      "type": "Edm.String",
+      "searchable": true
+    },
+    {
+      "name": "fieldValues",
+      "type": "Edm.String",
+      "searchable": true,
+      "filterable": false,
+      "facetable": false,
+      "sortable": false
+    },
+    {
+      "name": "contentVector",
+      "type": "Collection(Edm.Single)",
+      "searchable": true,
+      "dimensions": 1536,
+      "vectorSearchProfile": "hnswProfile"
+    },
+    {
+      "name": "metadata",
+      "type": "Edm.String",
+      "searchable": false
+    }
+  ],
+  "vectorSearch": {
+    "profiles": [
+      {
+        "name": "hnswProfile",
+        "algorithm": "hnsw"
+      }
+    ],
+    "algorithms": [
+      {
+        "name": "hnsw",
+        "kind": "hnsw",
+        "hnswParameters": {
+          "m": 10,
+          "efConstruction": 1000,
+          "efSearch": 500,
+          "metric": "cosine"
+        }
+      }
+    ]
+  }
+}

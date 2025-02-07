@@ -1,0 +1,105 @@
+{
+  "_id": "result137",
+  "user_id": "userXYZ",
+  "folder_id": "folderDEG",
+  "document_id": "doc784",
+  "timestamp": "2024-04-15T10:00:00Z",
+  "fieldValues": [
+    {
+      "fieldType": "text",
+      "fieldName": "Customer",
+      "value": "Google"
+    },
+    {
+      "fieldType": "text",
+      "fieldName": "Contact",
+      "value": "Alice"
+    },
+    {
+      "fieldType": "checkbox",
+      "fieldName": "Premium Order",
+      "value": true
+    },
+    {
+      "fieldType": "date",
+      "fieldName": "Order Date",
+      "value": "2025-04-17"
+    },
+    {
+      "fieldType": "text",
+      "fieldName": "Order code",
+      "value": "abc-12347"
+    },
+    {
+      "fieldType": "currency",
+      "fieldName": "Total Price",
+      "value": 900.00
+    },
+    {
+      "fieldType": "phone",
+      "fieldName": "Phone Number",
+      "value": "124-457-7800"
+    },
+    {
+      "fieldType": "email",
+      "fieldName": "Customer Email",
+      "value": "m.shavandi@icloud.com"
+    },
+    {
+      "fieldType": "dropdown",
+      "fieldName": "Order Status",
+      "value": "shipped"
+    },
+    {
+      "fieldType": "radio",
+      "fieldName": "Payment Method",
+      "value": "Wire Transfer"
+    },
+    {
+      "fieldType": "file",
+      "fieldName": "Invoice",
+      "value": {
+        "fileRef": "invoice125.pdf"
+      }
+    },
+    {
+      "fieldType": "address",
+      "fieldName": "Shipping Address",
+      "value": {
+        "line1": "Niederkasseler Kirchweg 100",
+        "line2": "DigiNote",
+        "city": "Dusseldorf",
+        "state": "NRW",
+        "zip": "40547"
+      }
+    },
+    {
+      "fieldType": "table",
+      "fieldName": "Order Items",
+      "value": [
+        { "Item": "Pens", "Quantity": 16 },
+        { "Item": "Chairs", "Quantity": 56 },
+        { "Item": "Lamp", "Quantity": 206 },
+        { "Item": "Laptops", "Quantity": 106 },
+        { "Item": "T-shirts", "Quantity": 116 },
+        { "Item": "Mugs", "Quantity": 36 }
+      ]
+    },
+    {
+      "fieldType": "signature",
+      "fieldName": "UserSignature",
+      "value": {
+        "timestamp": "2025-04-15T10:00:00Z",
+        "fileRef": "sig_result125.png"
+      }
+    },
+    {
+      "fieldType": "location",
+      "fieldName": "UserLocation",
+      "value": {
+        "lat": 35.6897,
+        "lon": 139.6920
+      }
+    }
+  ]
+}

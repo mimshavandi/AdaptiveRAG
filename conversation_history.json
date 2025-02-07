@@ -1,0 +1,10 @@
+[
+    {
+        "role": "user",
+        "content": "How many Lamps was ordered by Alice?"
+    },
+    {
+        "role": "assistant",
+        "content": "Alice ordered 206 lamps."
+    }
+]
