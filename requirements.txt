@@ -2,3 +2,5 @@ openai==0.28
 matplotlib
 python-dotenv
 requests==2.31.0
+pandas 
+openpyxl
